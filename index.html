@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Checkout-Page-Challenge</title>
+</head>
+
+<body>
+  <header>
+    <h1 id="titulo">Checkout</h1>
+  </header>
+  <main>
+    <section id="seccion1">
+      <div id="producto1">
+        <div id="foto1">
+          <img src="./img/photo1.png" alt="">
+        </div>
+        <div id="descripcion1" class="descripcion">
+          <h2>Vintage Backpag</h2>
+          <h3>$54.99 <span>$94.99</span></h3>
+          <div class="acumulador">
+            <p><a href="#">-</a>1<a href="#">+</a></p>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="producto2">
+        <div id="foto2">
+          <img src="./img/photo2.png" alt="">
+        </div>
+        <div id="descripcion2" class="descripcion">
+          <h2>Levi Shoes</h2>
+          <h3>$74.99 <span>$124.99</span></h3>
+          <div class="acumulador">
+            <p><a href="#">-</a>1<a href="#">+</a></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="totales">
+        <hr>
+
+        <div class="precios">
+          <p>Shipping</p>
+          <p>$19</p>
+        </div>
+        <hr>
+        <div class="precios">
+          <p>Total</p>
+          <p>$148.98</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="formulario">
+      <h3>Contact information</h3>
+      <form id="contact" class="primeraparte">
+
+
+        <label for="email">E-mail</label><br>
+        <div class="entradaDatos">
+          <i class="fa fa-envelope icon"></i>
+          <input type="text" name="email" placeholder="Enter your email..." class="input-field"><br>
+        </div>
+        <label for="phone">Phone</label><br>
+        <div class="entradaDatos">
+          <i class="fa fa-phone icon"></i>
+          <input type="text" name="phone" placeholder="Enter your phone..."><br>
+        </div>
+
+      </form>
+
+      <h3>Shipping address</h3>
+      <form id="shipping" class="primeraparte">
+
+        <label for="fullname">Full name</label><br>
+        <div class="entradaDatos">
+          <i class="fa fa-user-circle icon"></i>
+          <input type="text" name="fullname" placeholder="Rodney Cotton"><br>
+        </div>
+        <label for="address">Address</label><br>
+        <div class="entradaDatos">
+          <i class="fa fa-home icon"></i>
+          <input type="text" name="address" placeholder="Your address..."><br>
+        </div>
+        <label for="city">City</label><br>
+        <div class="entradaDatos">
+          <i class="fa fa-building icon"></i>
+          <input type="text" name="city" placeholder="Your city..."><br>
+        </div>
+        <div id="country-postalcode">
+          <div class="country">
+            <label for="country">Country</label><br>
+            <div class="entradaDatos">
+              <i class="fa fa-building icon"></i>
+              <input type="text" name="country" placeholder="Your country...">
+            </div>
+          </div>
+          <div class="postalcode">
+            <label for="postalcode">Postal code</label><br>
+            <div class="entradaDatos">
+              <i class="fa fa-building icon"></i>
+              <input type="text" name="postalcode" placeholder="Your postal code..."><br>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="checkb">
+
+          <input type="checkbox" name="save">
+          <label for="save">Save this information for next time</label>
+        </div>
+
+
+      </form>
+      <div id="boton_continue">
+        <a id="bton" href="#">Continue</a>
+      </div>
+    </section>
+
+
+  </main>
+  <footer>
+    <h2>created by <a href="www.google.com">Edicion7</a> - devChallenges.io</h2>
+  </footer>
+
+</body>
+
+</html>
