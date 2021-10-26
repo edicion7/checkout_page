@@ -29,7 +29,7 @@ img{
 }
 
 .descripcion{
-    margin-left: 1rem;
+    margin-left: 3rem;
 /*     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
@@ -116,8 +116,8 @@ img{
 }
 
 .totales{
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 1.2rem;
+    margin-right: 1.5rem;
     margin-bottom: 3rem;
     margin-top: 5rem;
 }
