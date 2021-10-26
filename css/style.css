@@ -118,7 +118,8 @@ img{
 .totales{
     margin-left: 1rem;
     margin-right: 1rem;
-
+    margin-bottom: 3rem;
+    margin-top: 5rem;
 }
 .precios{
     display: flex;
@@ -185,6 +186,7 @@ position: absolute; /* podría ser relative */
 .entradaDatos{
     display: flex;
     flex-direction: column;
+    column-gap: 1px;
   /*   justify-content: space-around;
     flex-grow: 1; */
     /* position: relative; */
@@ -238,7 +240,21 @@ font-weight: 600;
 font-size: 18px;
 line-height: 22px;
 color: #333333;
+/* margin-top: 4rem; */
+display:inline; 
+vertical-align:middle
 }
+
+#shippingA{
+
+margin-top:93rem;
+}
+
+.checkb input{
+    position: relative;
+    top: 8px; 
+}
+
 
 #formulario label{
 font-family: Montserrat;
@@ -262,6 +278,12 @@ color: #4F4F4F;
     
 }
 
+
+
+.checkb{
+    display: flex;
+    flex-direction: row;
+}
 
 
 
@@ -315,3 +337,63 @@ color: #4F4F4F;
         flex-direction: row-reverse;
         justify-content: space-evenly;    }
 }
+
+header h1{
+    display: flex;
+    flex-direction: column;
+}
+
+#seccion1{
+    background:#F2F2F2;   
+    border-radius: 12px;
+    padding-top: 0.7rem;
+    position: relative;
+width: 383px;
+height: 535px;
+}
+
+.totales{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    
+}
+
+.primeraparte input{
+    border: 1px solid #828282;
+    box-sizing: border-box;
+    border-radius: 12px;
+    padding: 10px;
+    padding-left: 2.5rem;
+    
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+  }
+
+  #formulario label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #4F4F4F;
+    
+    
+      position: relative; 
+      top: 11px; 
+    
+    
+    }
+    
+    
+    #country-postalcode label{
+        position: relative; 
+      top: -4px; 
+        
+    }
